@@ -18,7 +18,7 @@ namespace TeduShop.Data.Infrastructure
         public void Dispose()
         {
             Dispose(true);
-            GC.SuppressFinalize(this);
+            GC.SuppressFinalize(this);//thuhoach bo nho
         }
         private void Dispose(bool disposing)
         {

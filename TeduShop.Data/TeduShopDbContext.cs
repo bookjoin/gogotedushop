@@ -12,7 +12,7 @@ namespace TeduShop.Data
     {
         public TeduShopDbContext() : base("TeduShopConnection")
         {
-            this.Configuration.LazyLoadingEnabled = false;
+            this.Configuration.LazyLoadingEnabled = false;//them bang cha khong tu dong them bang con
         }
 
         public DbSet<Footer> Footers { set; get; }
@@ -24,7 +24,7 @@ namespace TeduShop.Data
         public DbSet<Post> Posts { set; get; }
         public DbSet<PostTag> PostTags { set; get; }
         public DbSet<Product> Products { set; get; }
-        public DbSet<ProductCategory> ProductCategorys { set; get; }
+        public DbSet<ProductCategory> ProductCategories { set; get; }
         public DbSet<ProductTag> ProductTags { set; get; }
         public DbSet<Slide> Slides { set; get; }
         public DbSet<SupportOnline> SupportOnlines { set; get; }
@@ -34,7 +34,7 @@ namespace TeduShop.Data
 
         protected override void OnModelCreating(DbModelBuilder builder)
         {
-            
+            //se chay khi khoi tao entity framework
         }
     }
 }
