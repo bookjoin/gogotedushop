@@ -8,16 +8,14 @@ using TeduShop.Model.Models;
 
 namespace TeduShop.Data.Repositories
 {
-    //khai báo namespase
-    public interface IProductRepository
+    public interface IMenuGroupRepository
     {
 
     }
-    public class ProductRepository : RepositoryBase<Product>,IProductRepository
+    public class MenuGroupRepository : RepositoryBase<MenuGroup>, IMenuGroupRepository
     {
-        public ProductRepository(IDbFactory dbFactory) : base(dbFactory)
+        public MenuGroupRepository(IDbFactory dbFactory) : base(dbFactory)
         {
-
         }
     }
 }

@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace TeduShop.Model.Models
 {
     [Table("PostCategories")]
-    public class PostCategorie 
+    public class PostCategory 
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
