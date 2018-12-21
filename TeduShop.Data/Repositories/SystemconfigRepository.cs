@@ -8,7 +8,7 @@ using TeduShop.Model.Models;
 
 namespace TeduShop.Data.Repositories
 {
-    public interface ISystemconfigRepository
+    public interface ISystemconfigRepository : IRepository<SystemConfig>
     {
 
     }

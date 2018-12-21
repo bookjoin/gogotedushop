@@ -9,7 +9,7 @@ using TeduShop.Model.Models;
 namespace TeduShop.Data.Repositories
 {
     //khai báo namespase
-    public interface IProductRepository
+    public interface IProductRepository : IRepository<Product>
     {
 
     }
