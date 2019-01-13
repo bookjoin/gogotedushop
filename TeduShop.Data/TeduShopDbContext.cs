@@ -22,6 +22,7 @@ namespace TeduShop.Data
         public DbSet<OrderDetail> OrderDetails { set; get; }
         public DbSet<Page> Pages { set; get; }
         public DbSet<Post> Posts { set; get; }
+        public DbSet<PostCategory> PostCategories { set; get; }
         public DbSet<PostTag> PostTags { set; get; }
         public DbSet<Product> Products { set; get; }
         public DbSet<ProductCategory> ProductCategories { set; get; }
@@ -35,6 +36,8 @@ namespace TeduShop.Data
         protected override void OnModelCreating(DbModelBuilder builder)
         {
             //se chay khi khoi tao entity framework
+            //Database.SetInitializer<TeduShopDbContext>(null);
+            //base.OnModelCreating(builder);
         }
     }
 }

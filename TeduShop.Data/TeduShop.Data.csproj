@@ -56,13 +56,9 @@
     <Compile Include="Infrastructure\IUnitOfWork.cs" />
     <Compile Include="Infrastructure\RepositoryBase.cs" />
     <Compile Include="Infrastructure\UnitOfWork.cs" />
-    <Compile Include="Migrations\201812021405314_InitialDB.cs" />
-    <Compile Include="Migrations\201812021405314_InitialDB.Designer.cs">
-      <DependentUpon>201812021405314_InitialDB.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201812201712372_InitialDB1.cs" />
-    <Compile Include="Migrations\201812201712372_InitialDB1.Designer.cs">
-      <DependentUpon>201812201712372_InitialDB1.cs</DependentUpon>
+    <Compile Include="Migrations\201901130746527_InitialDB.cs" />
+    <Compile Include="Migrations\201901130746527_InitialDB.Designer.cs">
+      <DependentUpon>201901130746527_InitialDB.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -100,11 +96,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201812021405314_InitialDB.resx">
-      <DependentUpon>201812021405314_InitialDB.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201812201712372_InitialDB1.resx">
-      <DependentUpon>201812201712372_InitialDB1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201901130746527_InitialDB.resx">
+      <DependentUpon>201901130746527_InitialDB.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
